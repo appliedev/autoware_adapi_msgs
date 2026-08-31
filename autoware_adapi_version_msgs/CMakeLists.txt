@@ -8,4 +8,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/InterfaceVersion.srv"
 )
 
+ament_index_register_resource("rust_packages")
+
 ament_auto_package()
