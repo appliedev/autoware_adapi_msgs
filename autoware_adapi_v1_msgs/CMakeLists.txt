@@ -93,4 +93,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     unique_identifier_msgs
 )
 
+ament_index_register_resource("rust_packages")
+
 ament_auto_package()
